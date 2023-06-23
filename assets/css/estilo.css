@@ -1,38 +1,159 @@
-/*Estilos padroes para todas as telas */
-@import url('https://fonts.googleapis.com/css2?family=Playfair:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300&display=swap');
 
-body{
- font-family:'PlayFair', serif ;
- font-weight: 300;
- font-size: 1rem;
-}
+.banner{
 
-.banner {
- height: 70vh;
- background: url('../img/background.jpg');
- background-position: center;
- background-repeat: no-repeat;
- background-size: cover;
- color: #fff;
-}
-/* Estilos para as telas com resolução até 576px*/
-@media (max-width: 575.98px) {
-}
-/* Estilos para as telas com resolução até 767px*/
-@media (max-width: 767.98px){
+    background: url('../img/background.jpg');
+
+    background-position: top center;
+
+    background-size: cover;
+
+    background-repeat: no-repeat;
+
+    height: 70vh;
 
 }
 
-/*Estilos para as telas com resolução até 996px*/
-@media (max-width: 991.98px){
+.perfil{
+
+    border-radius: 50%;
+
+    border: #fff solid 0.5rem;
+
+    height: 60vh;
 
 }
 
-/*Estilos para as telas com resolução até 1.200px*/
-@media (max-width: 1199.98px){
+
+
+
+.myname {
+
+    font-family: 'dois', sans-serif;
+
+    font-size: 4rem;
+
+    color: #fff;
+
+    font-weight: 600;
 
 }
-/* Estilos para as telas com resolução até 1.400px*/
-@media (max-width: 1399.98px){
+
+
+
+
+
+@media (max-width: 576px) {
+
+    .banner {
+
+        background-position: center;
+
+        height: 80vh;
+
+    }
+
+    .perfil{
+
+       height: 100%;
+
+
+
+
+    }
+
+    .myname {
+
+        font-family: 'dois', sans-serif;
+
+        font-size: 2.5rem;
+
+        font-weight: 300;
+
+        text-align: center;
+
+    }
+
+}
+
+
+
+
+@media (min-width: 577px) and (max-width: 1200px) {
+
+    .banner {
+
+        background-position: right;
+
+        height: 80vh;
+
+    }
+
+    .perfil{
+
+       height: 100%;
+
+
+
+
+    }
+
+   
+
+}
+
+
+
+
+.habilidades{
+
+    font-family: 'Kalam', cursive;
+
+    color: #000000;
+
+   
+
+    text-decoration: underline;
+
+}
+
+
+
+
+.historico{
+
+    font-family: 'Kalam', cursive;
+
+    color: #111111;
+
+   margin-left: 35%;
+
+    text-decoration: underline;
+
+}
+
+
+
+
+
+.letra{
+
+    text-decoration: underline;
+
+}
+
+
+
+
+
+
+.histo{
+
+    margin-left: 35%;
+
+   
+
+
+
 
 }
